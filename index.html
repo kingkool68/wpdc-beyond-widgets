@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+		<head>
+		<meta charset="utf-8">
+		<title>WP Gizmos - Per Post Widgets</title>
+		<meta name="description" content="Widgets are awesome but wouldn't it be cool to have different widgets on a per-post basis?">
+		<meta name="author" content="Russell Heimlich">
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/sky.css" id="theme">
+		<style>
+		.reveal p.via {
+			font-size:75%;
+			margin-top:1em;
+		}
+		</style>
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="css/prism.css">
+
+		<!-- If the query includes 'print-pdf', use the PDF print sheet -->
+		<script>
+			document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+		
+		<script>
+  		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  		ga('create', 'UA-50793-11', 'kingkool68.com');
+  		ga('send', 'pageview');
+
+		</script>
+		</head>
+
+		<body>
+<div class="reveal">
+	<div class="slides">
+		<section>
+			<h1>Beyond Widgets&hellip;</h1>
+			<p>presented at</p>
+			<p><a href="http://www.meetup.com/wordpressdc/events/129111132/" target="_blank">WordPress DC - August Lightning Talks</a></p>
+			<p> </p>
+			<p>August 13, 2013</p>
+		</section>
+		<section>
+			<h2>Follow Along</h2>
+			
+		</section>
+		<section>
+			<h2>Hi, I'm Russell Heimlich</h2>
+			<p class="fragment">Chief Widget Wrangler at the <a href="http://www.pewresearch.org/" target="_blank">Pew Research Center</a></p>
+		</section>
+		<section>
+			<h1>Widgets</h1>
+		</section>
+		<section>
+			<ul>
+				<li class="fragment">Modular content chunks that can be mixed and matched<br><br></li>
+				<li class="fragment">Drag and drop to re-order<br><br></li>
+				<li class="fragment">Easy to use, no coding required</li>
+			</ul>
+		</section>
+		<section>
+			<h1>Widgets are AWESOME!</h1>
+		</section>
+		<section>
+			<h2>Except when they get out of hand...</h2>
+		</section>
+		<section>
+			<h2>The PewResearch.org homepage is made up of <strong>10 different sidebars</strong>.</h2>
+		</section>
+		<section>
+			<a href="http://www.pewresearch.org/"><img src="img/pewresearch-homepage.png"></a>
+		</section>
+		<section>
+			<img src="img/10-pewresearch-sidebars.png">
+		</section>
+		<section>
+			<h2>We wanted managing the content on the homepage to be easy!</h2>
+			<p>Now our editors want everything to be easy.</p>
+		</section>
+		<section>
+			<h2>We needed a landing page for our <acronym title="Lesbian, Gay, Bisexual, Transgender">LGBT</acronym> series of reports.</h2>
+			<ul>
+				<li class="fragment">Content from across the Pew Research Center<br><br></li>
+				<li class="fragment">Frequently changing as new content is published<br><br></li>
+				<li class="fragment">Editorially-controlled ordering<br><br></li>
+			</ul>
+		</section>
+		<section>
+			<a href="http://www.pewresearch.org/packages/lgbt-in-changing-times/"><img src="img/pewresearch-lgbt-landing-page.png"></a>
+		</section>
+		<section>
+			<h2>Widgets to the rescue?</h2>
+			<ul>
+				<li class="fragment">This would require two additional sidebars<br><br></li>
+				<li class="fragment">Managing the widgets would mean navigating to different sections of the admin (confusing)</li>
+			</ul>
+		</section>
+		<section>
+			<h2>What if we wanted other landing pages?</h2>
+			<p class="fragment">We would end up with sidebars out the wazoo!</p>
+		</section>
+		<section>
+			<h1>We Needed Something Better!</h1>
+			<p class="fragment">So we built it&hellip;</p>
+		</section>
+		<section>
+			<p>and we call it</p>
+			<h1 class="fragment">WP Gizmos</h1>
+		</section>
+		<section>
+			<h2>WP Gizmos are like per-post/page/whatever widgets.</h2>
+		</section>
+		<section>
+			<h3>WP Gizmos</h3>
+			<ul>
+				<li class="fragment">Drag and drop reordering<br><br></li>
+				<li class="fragment">Different types can be mixed and matched<br><br></li>
+				<li class="fragment">Add as many as you want<br><br></li>
+				<li class="fragment">Stay on the same page you're editing<br><br></li>
+				<li class="fragment">Flexible!</li>
+			</ul>
+		</section>
+		<section>
+			<h3>Gizmo Metabox</h3>
+			<img src="img/closed-gizmos.png">
+		</section>
+		<section>
+			<h3>Editing a Gizmo</h3>
+			<img src="img/edit-a-gizmo.png">
+		</section>
+		<section>
+			<h1>Demo time!</h1>
+		</section>
+		<section>
+			<h2>Available on GitHub</h2>
+			<p><a href="#">Github URL Here</a></p>
+		</section>
+		<section>
+			<h1>Questions?</h1>
+			<p>Tweet me, <a href="http://www.twitter.com/kingkool68/" target="_blank">@kingkool68</a>, or <a href="http://www.russellheimlich.com/contact.html" target="_blank">contact me</a>.</p>
+		</section>
+	</div>
+</div>
+
+<script src="lib/js/head.min.js"></script> 
+<script src="js/reveal.min.js"></script> 
+<script src="js/prism.js"></script> 
+<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme || 'sky', // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/none
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/showdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+</body>
+</html>
